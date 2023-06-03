@@ -8,30 +8,17 @@ A gallery meant to inspire.
  When unexpected sadness really hits home & it's difficult to shake it... always remember it's the smallest things that manage to melt my heart.
 > Live demo can be found [here](https://image-gallery-eight-lac.vercel.app/)
 
+I even designed the SVG (Logo and Bridge files used on this project)
+
 ## Tech Stack
 
 - ![nextjs](https://camo.githubusercontent.com/8552f38715af0ea9f364801b055f7a2448812b49075860983d53a81414349623/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d4e6578742e6a7326636f6c6f723d303030303030266c6f676f3d4e6578742e6a73266c6f676f436f6c6f723d464646464646266c6162656c3d)
 
 - ![typescript](https://camo.githubusercontent.com/773cfd323f61dbc7301a98e28c69fbd0f27f491272f4acf48106936ca1d14c47/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d5479706553637269707426636f6c6f723d333137384336266c6f676f3d54797065536372697074266c6f676f436f6c6f723d464646464646266c6162656c3d)
 
-- ![tailwind](https://camo.githubusercontent.com/5d16e7fdd964ebca50ca82d6c8b081045630340427c463f4470050acd4e50ef3/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d5461696c77696e642b43535326636f6c6f723d323232323232266c6f676f3d5461696c77696e642b435353266c6f676f436f6c6f723d303642364434266c6162656c3d)
+- ![tailwindcss](https://camo.githubusercontent.com/5d16e7fdd964ebca50ca82d6c8b081045630340427c463f4470050acd4e50ef3/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d5461696c77696e642b43535326636f6c6f723d323232323232266c6f676f3d5461696c77696e642b435353266c6f676f436f6c6f723d303642364434266c6162656c3d)
 
-## Table of contents
-
-> * [Title / Repository Name](#image-gallery)
->   * [Table of contents](#table-of-contents)
->   * [Installation](#installation)
->   * [Usage](#usage)
->     * [Screenshots](#screenshots)
->     * [Features](#features)
->   * [Code](#code)
->     * [Content](#content)
->     * [Requirements](#requirements)
->     * [Limitations](#limitations)
->     * [Build](#build)
->     * [Deploy (how to install build product)](#deploy-how-to-install-build-product)
->   * [License](#license)
-
+---
 
 ## Environment Variables
 
@@ -59,18 +46,29 @@ CLOUDINARY_API_SECRET=<secret-key>
 
 CLOUDINARY_FOLDER=<specific-folder-name>
 
-## Installation
+## Dependencies
 
 * From the command line: 
-```
-npm install @headlessui/react @heroicons/react cloudinary eslint-config-next framer-motion imagemin imagein-jpegtran next react react-dom react-hooks-global-state react-swipeable react-use-keypress
-```
+
+ 1. @headlessui/react 
+ 2. @heroicons/react  
+ 3. cloudinary 
+ 4. eslint-config-next 
+ 5. framer-motion 
+ 6. imagemin 
+ 7. imagein-jpegtran 
+ 8. next 
+ 9. react 
+ 10. react-dom 
+ 11. react-hooks-global-state 
+ 12. react-swipeable 
+ 13. react-use-keypress
 
 ## Usage
 
 ### Screenshots
 
-![App Screenshot](https://res.cloudinary.com/codelikeagirl29/image/upload/v1684422294/projects/Next-js-Conf-2022-Photos_zcmzzj.png)
+![App Screenshot](https://res.cloudinary.com/codelikeagirl29/image/upload/v1685775408/image-gallery-screenshot.png)
 
 ### Features
 
@@ -78,9 +76,10 @@ npm install @headlessui/react @heroicons/react cloudinary eslint-config-next fra
 ![Vercel](http://therealsujitk-vercel-badge.vercel.app/?app=image-gallery-eight-lac.vercel.app)
 
 ### Build
-
+```
     npm run build
-
+```
+ 
 ### Deploy (how to install build product)
 
 Direct to MP package if any. Otherwise provide steps to deploy on Nuxeo Platform:

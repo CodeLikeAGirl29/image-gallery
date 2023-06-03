@@ -82,19 +82,15 @@ CLOUDINARY_FOLDER=<specific-folder-name>
  
 ### Deploy (how to install build product)
 
-Direct to MP package if any. Otherwise provide steps to deploy on Nuxeo Platform:
-
- > Copy the built artifacts into `$NUXEO_HOME/templates/custom/bundles/` and activate the `custom` template.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCodeLikeAGirl29%2Fimage-gallery&env=NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY,CLOUDINARY_API_SECRET&envDescription=API%20Keys%20are%20Needed%20for%20this%20to%20work.&envLink=https%3A%2F%2Fcloudinary.com%2Fguides%2Ffront-end-development%2Fintegrating-cloudinary-with-next-js&project-name=cloudinary-nextjs&demo-title=Img%20Gallery&demo-description=A%20Nextjs%20blog%20site%20using%20my%20Cloudinary%20Images%20%26%20styled%20with%20Tailwindcss.&demo-url=https%3A%2F%2Fimage-gallery-eight-lac.vercel.app%2F&integration-ids=oac_0Bh9szvT534p5qWBHYR2EwiG)
 
 ## License
 
 This example shows how to create an image gallery site using Next.js, [Cloudinary](https://cloudinary.com), and [Tailwind](https://tailwindcss.com).
 
-## Deploy your own
+## Demo
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or view the demo [here](https://image-gallery-eight-lac.vercel.app/)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cloudinary&project-name=nextjs-image-gallery&repository-name=with-cloudinary&env=NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY,CLOUDINARY_API_SECRET,CLOUDINARY_FOLDER&envDescription=API%20Keys%20from%20Cloudinary%20needed%20to%20run%20this%20application.)
+View the demo [here](https://image-gallery-eight-lac.vercel.app/)
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
